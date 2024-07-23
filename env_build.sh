@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=env build # the name for the cluster scheduler
+#SBATCH --job-name=env_build # the name for the cluster scheduler
 #SBATCH --time=00:10:00 # Maximum allowed runtime per iteration
 #SBATCH --mem-per-cpu=7G
 #SBATCH --output=logfiles/example_%A_%a.out # the name of the output files
