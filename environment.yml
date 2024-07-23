@@ -20,6 +20,5 @@ dependencies:
  - r-mgcv
  - r-MASS
  - r-modeest
- #- r-rnrfa
  - r-rnaturalearth
  - r-sf
