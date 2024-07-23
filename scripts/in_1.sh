@@ -11,6 +11,6 @@
 module purge
 module load Anaconda3//2020.11
 
-source CONPREFIX=$DATA/conda_envs/temp
+source CONPREFIX=$DATA/conda_envs/lepidoptera_sdms
 
 Rscript scripts/example_script.R ${SLURM_ARRAY_TASK_ID} 
