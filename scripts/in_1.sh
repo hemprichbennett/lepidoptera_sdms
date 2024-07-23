@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=example # the name for the cluster scheduler
-#SBATCH --time=00:10:00 # Maximum allowed runtime per iteration
+#SBATCH --time=00:25:00 # Maximum allowed runtime per iteration
 #SBATCH --mem-per-cpu=7G
 #SBATCH --array=1-10 # the number of iterations
 #SBATCH --output=logfiles/example_%A_%a.out # the name of the output files
