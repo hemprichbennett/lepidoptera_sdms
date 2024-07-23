@@ -13,5 +13,5 @@ module load Anaconda3
 export CONPREFIX=$DATA/conda_envs/lepidoptera_sdms
 conda create --prefix $CONPREFIX
 source activate $CONPREFIX
-conda install R r-terra r-tidyterra r-tidyverse r-Hmisc r-geometry r-rootSolve r-MESS r-readr r-lubridate r-ggplot2 r-ggtext r-mgcv r-MASS r-modeest r-rnaturalearth r-sf
+conda install R r-terra r-tidyterra r-tidyverse r-Hmisc r-geometry r-rootSolve r-MESS r-readr r-lubridate r-ggplot2 r-ggtext r-mgcv r-MASS r-modeest r-rnaturalearth r-sf --yes
 
