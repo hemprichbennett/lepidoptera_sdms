@@ -15,4 +15,3 @@ conda create --prefix $CONPREFIX
 source activate $CONPREFIX
 conda env update --file environment.yml --prune
 
-mkdir logfiles
