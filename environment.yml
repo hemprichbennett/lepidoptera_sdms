@@ -4,6 +4,7 @@ channels:
   - bioconda
   - defaults
 dependencies:
+ - R
  - r-base
  - r-terra
  - r-tidyterra
