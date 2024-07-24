@@ -25,3 +25,4 @@ source activate $CONPREFIX
 
 conda install R r-terra r-tidyterra r-tidyverse r-Hmisc r-geometry r-rootSolve r-MESS r-readr r-lubridate r-ggplot2 r-ggtext r-mgcv r-MASS r-modeest r-rnaturalearth r-sf -c conda-forge -c defaults -c r --yes
 
+Rscript install_rnrfa.R
