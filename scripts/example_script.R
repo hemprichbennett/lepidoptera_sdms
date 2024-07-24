@@ -13,6 +13,8 @@ cat('task_id is', task_id)
 # some_parameter <- params$parameter[task_id]
 
 # do something with those values
+# output_file <- ecology(input_file = data_to_use,
+#                       some_parameter)
 
 # save the output
 # output_filename <- paste0('data/processed_data/', data_to_use, '_', some_parameter, '.csv')
